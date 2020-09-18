@@ -1,0 +1,38 @@
+<body class="main">
+   <div class="container">
+    
+    <div class="options">
+
+    <div class="cookie-div">
+        <button class="button" (click)="loadCookie();">Load Cookie</button>
+    </div>
+
+    <div class="api-div">
+        <button class="button" (click)="loadApi();">Load API</button>
+    </div>
+
+    <div class="files-div">
+        <button class="button" (click)="loadFile();">Load File</button>
+    </div>
+
+    </div>
+
+    <div>
+        
+        <div *ngIf="cookieStatus" class="loaded">
+            <app-cookie></app-cookie>
+        </div>
+
+        <div *ngIf="apiStatus" class="loaded">
+            <app-api></app-api>
+        </div>
+
+        <div *ngIf="fileStatus" class="loaded">
+            <app-files></app-files>
+        </div>
+        
+    </div>
+
+   </div>
+    
+</body>
