@@ -2,6 +2,7 @@
     height: 250px;
     width: 300px;
     padding: 20px;
+    margin-bottom: 50px;
     .userID{
         height: 25px;
         background-color: red;
@@ -20,6 +21,7 @@
         margin-bottom: 20px;
         color: rgb(172, 164, 164);
         font-size: large;
+        overflow: scroll;
     }
 
     .bodyCo{
@@ -30,6 +32,7 @@
         margin-bottom: 20px;
         color: yellow;
         font-size: large;
+        overflow: scroll;
     }
 
     .created{
@@ -37,8 +40,8 @@
         border-radius: 10px;
         background-color:green;
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 400px;
         color: blue;
-        font-size: large;
+        // font-size: large;
     }
 }

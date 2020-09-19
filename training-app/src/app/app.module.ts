@@ -7,6 +7,7 @@ import { MainComponent } from './modules/main/main/main.component';
 import { ApiComponent } from './modules/api/api/api.component';
 import { FilesComponent } from './modules/files/files/files.component';
 import { CookieComponent } from './modules/cookie/cookie/cookie.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CookieComponent } from './modules/cookie/cookie/cookie.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

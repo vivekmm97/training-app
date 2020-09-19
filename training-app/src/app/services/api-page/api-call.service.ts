@@ -8,10 +8,11 @@ import { Observable } from 'rxjs';
 export class ApiCallService {
 
   constructor( private httpClient: HttpClient ) { }
-  getData(): Observable<any>{
-    const myApi = "https://gorest.co.in/public-api/posts";
+
+getData(): Observable<any>{
+    const UrlValue = "https://gorest.co.in/public-api/posts";
     return new Observable(observer => {
-      this.httpClient.get(myApi).subscribe((response: any) => {
+      this.httpClient.get(UrlValue).subscribe((response: any) => {
         observer.next(response);
         observer.complete();
       }, (error: any) => {
@@ -19,5 +20,5 @@ export class ApiCallService {
         observer.complete();
       });
     });
-  }
+    }
 }

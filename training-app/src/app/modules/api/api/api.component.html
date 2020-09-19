@@ -1,17 +1,17 @@
-<div class="main">
+<div class="main" *ngFor="let list of list.data">
     <div class="userID">
-       <p> userID</p>
+       <p>User ID: {{list.user_id}}</p>
     </div>
 
     <div class="title">
-        title        
+        {{list.title}}        
     </div>
 
     <div class="bodyCo">
-        bodyT
+        {{list.body}}
     </div>
 
     <div class="created">
-        createdAT
+        {{list.created_at}}
     </div>
 </div>

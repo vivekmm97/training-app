@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+// import { FormGroup, FormBuilder } from '@angular/forms';
+// import { HttpClient } from '@angular/common/http';
 import { ApiCallService } from 'src/app/services/api-page/api-call.service';
-import { from } from 'rxjs';
+// import { from } from 'rxjs';
 @Component({
   selector: 'app-api',
   templateUrl: './api.component.html',
