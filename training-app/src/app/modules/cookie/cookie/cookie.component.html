@@ -1,1 +1,7 @@
-<p>cookie works!</p>
+<div class="main">
+<form id="cookieForm">
+<input type="text" id="cookieVal" class="box" #cookie>
+<br>
+<button class="save-btn" (click)="saveCookie(cookie.value);">Save As Cookie</button>
+</form>
+</div>

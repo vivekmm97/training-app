@@ -11,5 +11,7 @@ export class FilesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+uploadFile(val : any){
+  console.log("File Uploaded");
+}
 }

@@ -1,0 +1,44 @@
+.main{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    .userID{
+        height: 25px;
+        background-color: red;
+        color: white;
+        font-size: large;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title{
+        height: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: rgb(172, 164, 164);
+        font-size: large;
+    }
+
+    .bodyCo{
+        height: 80px;
+        border-radius: 10px;
+        background-color:mediumblue;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: yellow;
+        font-size: large;
+    }
+
+    .created{
+        height: 25px;
+        border-radius: 10px;
+        background-color:green;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: blue;
+        font-size: large;
+    }
+}
