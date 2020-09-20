@@ -1,7 +1,6 @@
-<h3>Upload Image</h3>
-<input type="file" name="" id="up" class="load" #photo>
-<button type="submit" (click)="uploadFile(photo.value);">Upload</button>
-
 <div id="photoDisplay">
-    <!-- <img src="{{photo.value}}" alt=""> -->
+    <img [src]="url" height="200"> 
 </div>
+
+<br/>
+<input type='file' (change)="onSelectFile($event)">
